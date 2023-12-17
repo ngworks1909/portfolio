@@ -9,6 +9,7 @@ import { TbBrandLeetcode } from "react-icons/tb";
 import {SiGeeksforgeeks} from "react-icons/si";
 import img1 from '../assets/mypic.png'
 import img2 from '../assets/rotatingpic.png'
+import { Link } from 'react-router-dom';
 
 export default function Main() {
   return (
@@ -22,41 +23,41 @@ export default function Main() {
                     <p className=" short-text">I'm an undergraduate student from Anurag University</p>
                     </div>
                     <div data-aos="fade-up" className="social-buttons">
-                        <a href="https://github.com/ngworks1909/resume/blob/main/Nithin%20Resume.pdf" target="_blank" className="hire-me-button" >
+                        <Link to="https://github.com/ngworks1909/resume/blob/main/Nithin%20Resume.pdf" target="_blank" className="hire-me-button" >
                              <span> View Resume</span>
-                        </a>
-                        <a href={resumePDF} className="resume-button" download>
+                        </Link>
+                        <Link to={resumePDF} className="resume-button" download>
                             <div className="flex items-center gap-1">
                                 Resume <FiDownload />
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div className="icons-block flex mt-5">
                         <ul data-aos="fade-up" data-aos-duration="1500" className="icons-list">
                             <li>
-                                <a href="https://github.com/ngworks1909">
+                                <Link to="https://github.com/ngworks1909">
                                     <AiFillGithub className="social-icons" />
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/nithin-kumar-reddy-bb7b13253/">
+                                <Link to="https://www.linkedin.com/in/nithin-kumar-reddy-bb7b13253/">
                                     <FaLinkedinIn className="social-icons" />
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/nithin_1909/?hl=en">
+                                <Link to="https://www.instagram.com/nithin_1909/?hl=en">
                                     <AiFillInstagram className="social-icons" />
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="https://leetcode.com/Nithin_1909/">
+                                <Link to="https://leetcode.com/Nithin_1909/">
                                     <TbBrandLeetcode className="social-icons" />
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="https://auth.geeksforgeeks.org/user/nithinkanduru1908/practice">
+                                <Link to="https://auth.geeksforgeeks.org/user/nithinkanduru1908/practice">
                                     <SiGeeksforgeeks className="social-icons" />
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
