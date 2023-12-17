@@ -22,8 +22,8 @@ export default function Main() {
                     <p className=" short-text">I'm an undergraduate student from Anurag University</p>
                     </div>
                     <div data-aos="fade-up" className="social-buttons">
-                        <a href="/" className="hire-me-button" >
-                             <span> Hire Me</span>
+                        <a href="https://ngworks-portfolio.netlify.app/static/media/Nithin%20Resume.6492b27d676c12ea34a8.pdf" target="_blank" className="hire-me-button" >
+                             <span> View Resume</span>
                         </a>
                         <a href={resumePDF} className="resume-button" download>
                             <div className="flex items-center gap-1">
