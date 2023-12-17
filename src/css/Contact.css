@@ -1,0 +1,91 @@
+.contact{
+    margin: auto;
+    font-family: 'Josefin Sans';
+    margin-top: 3rem;
+}
+.contact-1{
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+.contact-label{
+    font-size: 2rem;
+    color: gray;
+    font-weight: 900;
+}
+.h-rule-4{
+    
+    display: block;
+    height: 1.1px;
+    right: 0;
+    position: absolute;
+    width: 90%;
+    background-color: #d2d6dc;
+
+}
+.contact-3{
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    align-items: center;
+}
+.contact-form{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+
+}
+.email-field,.name-field,.message-box{
+    width: 25rem;
+    padding: 0.7rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    outline-color: rgb(234 179 8 / 1);
+    border-radius: 0.6rem;
+    border: none;
+    box-shadow: 0px 0px 16px 8px rgba(0,0,0,0.1);
+}
+.contact-arrow-button{
+    color: rgb(234 179 8 / 1);
+    rotate: 90deg;
+    height: 1.75rem;
+    width: 1.75rem;
+    cursor: pointer;
+}
+.contact-arrow-block{
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.1);
+}
+.form-submit{
+    /*  p-2 rounded-lg flex items-center justify-center space-x-1 */
+    background-color: rgb(234 179 8 / 1);
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    padding: 0.75rem;
+    border-radius: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    gap: 0.25rem;
+}
+.form-submit:hover{
+    transform: scale(1.01);
+    transition: .2s ease-in-out;
+
+}
+
+@media (max-width: 640px){
+    .email-field,.name-field,.message-box{
+        width: 20rem;
+    }
+}
+@media (max-width: 368px){
+    .email-field,.name-field,.message-box{
+        width: 18rem;
+    }
+}

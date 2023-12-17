@@ -1,0 +1,60 @@
+.skillbox{
+
+    /* box   exsm:w-[6.5rem] exsm:h-[6.5rem] */
+    width: 11rem;
+    height: 11rem;
+    border-radius: 1rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.26);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.25rem;
+
+}
+.skillbox:hover{
+    transform: scale(1.02);
+    transition: .28s ease-in-out;
+}
+.skillbox-1{
+    /* "  sm:w-12 exsm:w-10  sm:h-12 exsm:h-10    sm:text-4xl" */
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+.skillbox-2{
+    /* font-semibold exsm:text-sm */
+    font-weight: 500;
+}
+
+@media (max-width: 450px) {
+    .skillbox {
+      width: 8rem !important;
+      height: 8rem !important; 
+    }
+    .skillbox-1{
+        width: 4rem !important;
+        height: 4rem !important;
+        font-size: 2rem;
+    }  
+}
+
+
+@media (max-width: 768px) {
+    .skillbox {
+      width: 10rem;
+      height: 10rem; 
+    }
+    .skillbox-1{
+        width: 5rem;
+        height: 5rem;
+        font-size: 2rem;
+    }  
+}
+

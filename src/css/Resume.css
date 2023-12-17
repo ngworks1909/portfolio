@@ -1,0 +1,110 @@
+.resume{
+    margin: auto;
+    font-family: 'Josefin Sans';
+    margin-top: 3rem;
+}
+.resume-1{
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+.resume-label{
+    font-size: 2rem;
+    color: gray;
+    font-weight: 900;
+}
+.h-rule-3{
+    
+    display: block;
+    height: 1.1px;
+    right: 0;
+    position: absolute;
+    width: 90%;
+    background-color: #d2d6dc;
+
+}
+
+.resume-2{
+    
+    flex: 1;
+    width: 100%;
+}
+.resume-3{
+    color: #4A5568;
+    font-size: medium;
+    width: 100%;
+    font-weight: 700;
+}
+.resume-block{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
+    justify-content: center;
+    gap: 2rem;
+}
+.internship,.education{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    word-break: break-all;
+  
+    
+    /* text-[.9rem] text-justify break-words text-gray-500 */
+}
+.intern-label,.education-label{
+    border: 2px solid  #dae3f0;
+    color: rgb(234 179 8 / 1);
+    padding: 0.25rem 2rem;
+    border-radius: 1.5rem;
+    font-weight: 700;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+.intern-info,.education-info{
+    height: 320px;
+    width: 25rem;
+    border: 2px solid rgb(234 179 8 / 1);
+    padding: 1.875rem 1.875rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.1);
+}
+.role-played{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.organisation-name,.work-description{
+    font-weight: 300;
+    font-size: 0.9rem;
+    color:#6B7280;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+.work-period{
+    font-size: 0.9rem;
+    color: rgb(234 179 8 / 1);
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+.work-description{
+    font-weight: 500;
+}
+
+@media (max-width: 991px) {
+    .resume-block{
+        flex-flow: column;
+    }  
+    .resume-block{
+        gap: 3rem;
+    }
+}
+@media (max-width: 436px) {
+    .intern-info,.education-info{
+        height: 400px;
+        width: 300px;
+    } 
+    
+}
+

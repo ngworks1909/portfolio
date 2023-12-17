@@ -1,0 +1,242 @@
+.main{
+    background: linear-gradient(to right,#bbf7d0,#bfdbfe);
+    font-family: 'Josefin Sans';
+}
+.main-1{
+    margin: 0 auto;
+    display: flex;
+    padding-top: 1.25rem;
+    height: 750px;
+}
+.main-2{
+    display: flex;
+    left: 50px;
+    margin-top: 1rem;
+    flex-grow: 1;
+    flex-flow: column;
+    justify-content: center;
+    gap: 1.25rem;
+    width: 50%;
+
+}
+.main-3{
+    width: fit-content;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.75rem;
+
+}
+
+.name-text{
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.skill-animation{
+    /* text-yellow-500 text-4xl font-bold sm:text-3xl */
+    color:rgb(234 179 8 / 1);
+    font-weight: bold;
+    font-size: 2rem;
+}
+.short-text{
+    /* md:w-full  sm:text-[.95rem] */
+    font-size: medium;
+    width: 75%;
+    color: gray;
+    font-weight: 600;
+}
+.social-buttons{
+    display: flex;
+    gap: 1.5rem;
+}
+.hire-me-button{
+    background-color: black;
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    padding: 0.5rem 2.5rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+.hire-me-button:hover{
+    color:rgb(234 179 8 / 1) ;
+    transition: .28s ease-in-out;
+}
+.resume-button{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+    background-color: white;
+    border: black;
+    padding: 0.5rem 2.25rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.resume-button:hover{
+    transition: .28s ease-in-out;
+    color:rgb(234 179 8 / 1);
+    font-weight: 700;
+}
+
+.icons-block{
+    margin-top: 1.5rem;
+    display: flex;
+}
+.icons-list{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+.social-icons{
+    height: 1.8rem;
+    color: black;
+    width: 1.8rem;
+    transition: 0.18s ease-in-out;
+}
+.social-icons:hover{
+   transform: scale(1.15);
+}
+.main-5{
+    float: right;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-self: center;
+    top: 5px;
+
+}
+.main-6{
+    /* relative h-[88%] w-fit flex items-center sm:items-end */
+    position: relative;
+    height: 88%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.my-pic{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10%;
+
+
+}
+.main-7{
+    position: absolute;
+    bottom: 10px;
+    right: 8px;
+}
+.main-8{
+    
+    position: relative;
+    cursor: pointer;
+}
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+.circle-text{
+    width: 135px;
+    animation: spin 12s linear infinite;
+    
+}
+
+.circle-play{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+
+
+@media (max-width: 640px) {
+    .main-1{
+       padding-top: 0;
+       height: 780px;
+       flex-flow: column-reverse;
+    }
+    .main-2{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .main-3{
+        gap: 0.5rem;
+    }
+    .name-text{
+        font-size: 2rem;
+    }
+    .skill-animation{
+        font-size: 1.5rem;
+    }
+    .short-text{
+        font-size: 0.95rem;
+     }
+     .hire-me-button{
+        padding: 0.5rem 2rem;
+     }
+     .resume-button{
+        padding: 0.5rem 2rem;
+     }
+    
+     .my-pic{
+        margin: 0;
+     }
+    
+}
+@media (max-width: 995px){
+    .main-5{
+        margin-left: 3rem;
+     }
+     
+}
+@media (max-width: 436px){
+    .main-5{
+        margin-left: 1rem;
+     }
+}
+
+@media (max-width: 768px) {
+     .main-1{
+        height: 100vwh;
+        flex-flow: column-reverse;
+     }
+     .main-2{
+        margin-top: 0;
+        width: 100%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+     }
+     .name-text{
+        font-size: 2.5rem;
+     }
+     .short-text{
+        width: 100%;
+     }
+     .my-pic{
+        height: 95%;
+        
+        margin: auto;
+     }
+     .main-6{
+        align-items: flex-end !important;
+     }
+     .main-7{
+        bottom: 3px;
+        right: 2px;
+     }
+     .circle-text{
+        width: 90px;
+     }
+}

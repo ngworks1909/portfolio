@@ -1,0 +1,118 @@
+.skills,.works{
+    font-family: 'Josefin Sans';
+    margin-top: 3rem;
+
+}
+.skills-1,.works-1{
+    margin: auto;
+    margin-top: 16px;
+}
+.skills-2,.works-2{
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+.skills-label,.works-label{
+    font-size: 2rem;
+    color: gray;
+    font-weight: 900;
+}
+.h-rule{
+    
+    display: block;
+    height: 1.1px;
+    right: 0;
+    position: absolute;
+    width: 90%;
+    background-color: #d2d6dc;
+
+}
+.skills-3,.works-3{
+    display: flex;
+}
+.skills-4,.works-4{
+    float: left;
+    flex-grow: 1;
+    width: 100%;
+}
+.para-1{
+    color: #4a5568;
+    font-size: medium;
+    width: 100%;
+    font-weight: 700;
+}
+.skills-5{
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+}
+
+.first2{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.works-5{
+    /* mx-auto w-[90%] sm:w-fit mt-5 */
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 2.5rem;
+}
+
+.project-items{
+    /* grid grid-cols-3 space-y-5 space-x-5 w-full md:grid-cols-2 sm:gap-8 sm:grid-cols-1 sm:space-y-0 */
+    width: 100%;
+
+
+}
+.project-items > * + *{
+    margin: 1.25rem 1.25rem;
+}
+
+
+/* <div className="card-wrapper">
+        <div className="card-box  ">
+          <WorkCard />
+        </div>
+      </div> */
+
+
+
+
+
+
+
+@media (max-width: 640px) {
+    .skills-label {
+      font-size: 1rem; 
+    } 
+    .works-5{
+        width: fit-content;
+    } 
+    .project-items{
+        gap: 2rem;
+    }
+    .project-items > * + *{
+        margin: 0 1.25rem;
+    }
+  }
+@media (max-width: 768px){
+    .skills-3{
+        flex-flow: column;
+     }
+}
+@media (max-width: 992px){
+    .skills-5{
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+    .first2{
+        flex-flow: column;
+        gap: 1.5rem;
+    }
+    
+}
