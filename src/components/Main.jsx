@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/Main.css'
 import { TypeAnimation } from "react-type-animation";
+import resumePDF from '../resume/Nithin Resume.pdf'
 import { FiDownload } from "react-icons/fi";
 import {AiFillGithub,AiFillInstagram} from "react-icons/ai";
 import { FaPlay, FaLinkedinIn } from "react-icons/fa";
@@ -24,7 +25,7 @@ export default function Main() {
                         <a href="https://github.com/ngworks1909/resume/blob/main/Nithin%20Resume.pdf" target="_blank" className="hire-me-button" >
                              <span> View Resume</span>
                         </a>
-                        <a href={'https://github.com/ngworks1909/resume/blob/main/Nithin%20Resume.pdf'} className="resume-button" download>
+                        <a href={resumePDF} className="resume-button" download>
                             <div className="flex items-center gap-1">
                                 Resume <FiDownload />
                             </div>
