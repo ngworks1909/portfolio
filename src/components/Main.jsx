@@ -22,7 +22,7 @@ export default function Main() {
                     <p className=" short-text">I'm an undergraduate student from Anurag University</p>
                     </div>
                     <div data-aos="fade-up" className="social-buttons">
-                        <a href="https://github.com/ngworks1909/resume/blob/main/Nithin%20Resume.pdf" className="hire-me-button" >
+                        <a href="https://github.com/ngworks1909/resume/blob/main/Nithin%20Resume.pdf" target="_blank" className="hire-me-button" >
                              <span> View Resume</span>
                         </a>
                         <a href={resumePDF} className="resume-button" download>
