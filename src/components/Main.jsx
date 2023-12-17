@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/Main.css'
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from '../resume/Resume.pdf'
+import resumePDF from '../resume/Nithin Resume.pdf'
 import { FiDownload } from "react-icons/fi";
 import {AiFillGithub,AiFillInstagram} from "react-icons/ai";
 import { FaPlay, FaLinkedinIn } from "react-icons/fa";
