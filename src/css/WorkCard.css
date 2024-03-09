@@ -122,7 +122,7 @@
 }
 
 
-@media (max-width: 640px) {
+@media (max-width: 992px) {
     .workcard3 {
       height: 260px !important;
       width: 92% !important;

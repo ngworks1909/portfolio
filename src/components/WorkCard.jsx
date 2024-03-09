@@ -51,7 +51,7 @@ const WorkCard = () => {
     <div className="total-works">
     {reversedData.map((data) => {
         return (
-          <div data-aos="zoom-in" data-aos-duration="1000" key={data.id} className="workcard1">
+          <div data-aos="zoom-in" key={data.id} className="workcard1">
             <POPUP className="img-content workcard2">
               <div className="workcard3">
                 <img src={data.img} alt={data.title} className="workcard4"/>
