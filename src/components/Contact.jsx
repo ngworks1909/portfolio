@@ -12,10 +12,10 @@ export default function contact() {
                     <h3 className="contact-label">Contact</h3>
                     <span className="h-rule-4"></span>
                 </div>
-                {/* Let's turn ideas into reality */}
+                {/*  */}
                 <div className="contact-text-3">
                     <div className="contact-text-4">
-                        <p data-aos="fade-up" className="contact-para-1">Here are my skills.</p>
+                        <p data-aos="fade-up" className="contact-para-1">Let's turn ideas into reality.</p>
                     </div>
                 </div>
                 
