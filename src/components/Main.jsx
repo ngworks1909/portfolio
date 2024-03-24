@@ -23,7 +23,7 @@ export default function Main() {
                     <p data-aos="fade-up" className=" short-text">I'm an undergraduate student from Anurag University</p>
                     </div>
                     <div data-aos="fade-up" className="social-buttons">
-                        <Link to="https://github.com/ngworks1909/resume/blob/main/Nithin%20Resume.pdf" target="_blank" className="hire-me-button" >
+                        <Link to="https://firebasestorage.googleapis.com/v0/b/portfolio-32a9b.appspot.com/o/Nithin%20Resume.pdf?alt=media&token=81ecc529-9b90-4086-aeac-056dc857a762" target="_blank" className="hire-me-button" >
                              <span> View Resume</span>
                         </Link>
                         <Link to={resumePDF} className="resume-button" download>
