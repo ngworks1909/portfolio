@@ -1,15 +1,15 @@
-import React from 'react'
-import '../css/Main.css'
-import { TypeAnimation } from "react-type-animation";
-import resumePDF from '../resume/Nithin Resume.pdf'
+import React from 'react';
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
+import { FaLinkedinIn, FaPlay } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
-import {AiFillGithub,AiFillInstagram} from "react-icons/ai";
-import { FaPlay, FaLinkedinIn } from "react-icons/fa";
+import { SiGeeksforgeeks } from "react-icons/si";
 import { TbBrandLeetcode } from "react-icons/tb";
-import {SiGeeksforgeeks} from "react-icons/si";
-import img1 from '../assets/mypic.png'
-import img2 from '../assets/rotatingpic.png'
 import { Link } from 'react-router-dom';
+import { TypeAnimation } from "react-type-animation";
+import img1 from '../assets/mypic.png';
+import img2 from '../assets/rotatingpic.png';
+import '../css/Main.css';
+import resumePDF from '../resume/Nithin Resume.pdf';
 
 export default function Main() {
   return (
@@ -23,7 +23,7 @@ export default function Main() {
                     <p data-aos="fade-up" className=" short-text">I'm an undergraduate student from Anurag University</p>
                     </div>
                     <div data-aos="fade-up" className="social-buttons">
-                        <Link to="https://firebasestorage.googleapis.com/v0/b/portfolio-32a9b.appspot.com/o/Nithin%20Resume.pdf?alt=media&token=ba1cce13-9ba0-42d9-839b-203c36fe1a44" target="_blank" className="hire-me-button" >
+                        <Link to="https://firebasestorage.googleapis.com/v0/b/portfolio-32a9b.appspot.com/o/Nithin%20Resume.pdf?alt=media&token=e1da539f-6020-4d6e-ab7f-7cd718559e92" target="_blank" className="hire-me-button" >
                              <span> View Resume</span>
                         </Link>
                         <Link to={resumePDF} className="resume-button" download>
