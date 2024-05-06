@@ -11,7 +11,7 @@ import whatsapp from '../assets/whatsapp.png';
 import '../css/WorkCard.css';
 
 const WorkCard = () => {
-  //all projects displayed here
+  //all projects displayed
   const reversedData = [
     {
         id : 7,
