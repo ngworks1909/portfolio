@@ -3,7 +3,7 @@ import '../css/Skills.css';
 import SkillBox from './SkillBox';
 import { GrMysql } from "react-icons/gr";
 import { FaReact ,FaPython,FaJava,FaNode} from "react-icons/fa";
-import {SiJavascript, SiMongodb, SiExpress, SiPostgresql, SiFirebase, SiPrisma, SiCloudflare, SiLinux, SiTypescript} from "react-icons/si";
+import {SiJavascript, SiMongodb, SiExpress, SiPostgresql, SiFirebase, SiPrisma, SiCloudflare, SiLinux, SiTypescript, SiNextdotjs, SiTurborepo} from "react-icons/si";
 
 export default function Skills() {
   return (
@@ -24,9 +24,9 @@ export default function Skills() {
                         <SkillBox  logo={<FaPython />} black={"#262626"} white={"white"} skill={"Python"}/>
                         <SkillBox  logo={<SiJavascript  />} black={"#262626"} white={"white"} skill={"Javascript"}/> 
                         <SkillBox  logo={<SiMongodb />} black={"#262626"} white={"white"} skill={"MongoDB"}/>
-                        <SkillBox  logo={<SiExpress />} black={"#262626"} white={"white"} skill={"Express.Js"}/>
-                        <SkillBox  logo={<FaReact />} black={"#262626"} white={"white"} skill={"React.Js"}/>
-                        <SkillBox  logo={<FaNode />} black={"#262626"} white={"white"} skill={"Node.Js"}/>
+                        <SkillBox  logo={<SiExpress />} black={"#262626"} white={"white"} skill={"Express.js"}/>
+                        <SkillBox  logo={<FaReact />} black={"#262626"} white={"white"} skill={"React.js"}/>
+                        <SkillBox  logo={<FaNode />} black={"#262626"} white={"white"} skill={"Node.js"}/>
                     
                         <SkillBox  logo={<SiTypescript />} black={"#262626"} white={"white"} skill={"Typescript"}/>
                         <SkillBox  logo={<SiLinux />} black={"#262626"} white={"white"} skill={"Linux"}/>
@@ -35,7 +35,8 @@ export default function Skills() {
                         <SkillBox  logo={<SiFirebase />} black={"#262626"} white={"white"}  skill={"Firebase"}/>
                         <SkillBox  logo={<SiPrisma />} black={"#262626"} white={"white"} skill={"Prisma"}/>
                         <SkillBox  logo={<SiCloudflare />} black={"#262626"} white={"white"} skill={"Cloudflare"}/>
-                        
+                        <SkillBox  logo={<SiNextdotjs />} black={"#262626"} white={"white"} skill={"Next.js"}/>
+                        <SkillBox  logo={<SiTurborepo />} black={"#262626"} white={"white"} skill={"Turborepo"}/>
 
                 </div>
             </div>
