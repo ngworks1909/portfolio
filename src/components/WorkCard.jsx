@@ -3,6 +3,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 import { RxExternalLink } from "react-icons/rx";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import fundsroom from '../assets/fundsroom.png';
 import notes from '../assets/notes.png';
 import spotify from '../assets/spotify.png';
 import todos from '../assets/todos.png';
@@ -44,6 +45,14 @@ const WorkCard = () => {
         link : "https://ngworks-spotify.vercel.app",
         git : "https://github.com/ngworks1909/spotify-clone"
     },
+    {
+      id : 11,
+      img : fundsroom,
+      title : "Payments",
+      desc : "Explore digital payments",
+      link : "https://fundsroom.vercel.app",
+      git : "https://github.com/ngworks1909/fundsroom"
+  },
   ].reverse();
 
   return (
