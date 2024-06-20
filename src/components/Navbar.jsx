@@ -31,7 +31,7 @@ const navItems=[
 export default function Navbar() {
     const [scrollPosition,setScrollPosition]=useState(0);
     const [isOpen,setIsOpen]=useState(false);
-    const [activeIndex,setActiveIndex]=useState(null);
+    const [activeIndex,setActiveIndex]=useState(0);
 
     const toggleNav=(name)=>{
         setIsOpen(!isOpen);
@@ -62,7 +62,7 @@ export default function Navbar() {
                     </button>
                         {navItems.map((item) => (
                             <li key={item.id} className='list-items'>
-                                <a href={`#${item.name}`} className={` nav-anchors `} style={item.name===activeIndex?{color:'yellow',fontWeight:'600'}:{}}>{item.name}</a>
+                                <a href={`#${item.name}`} className={` nav-anchors `} onClick={() => setActiveIndex(item.id)} style={item.id===activeIndex?{color:'rgb(234 179 8 / 1)',fontWeight:'600'}:{}}>{item.name}</a>
                             </li>
                         ))}
                          <a href="/" className=" hire-me">HIRE ME</a>

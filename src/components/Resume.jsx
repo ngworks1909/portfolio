@@ -33,7 +33,7 @@ export default function Resume() {
                     <p className="organisation-name">Anurag University</p>
                     <p className="work-period">Year 2020 - Year 2024</p>
                     <p className="work-description">
-                    As an undergraduate student, I have a good understanding of web development technologies such as HTML, CSS, JavaScript, and React JS. Additionally, I'm proficient in backend technologies such as Java, Mysql, and SpringBoot. I also have skills in Python and problem-solving using Data structures and Algorithms.
+                    As an undergraduate student, I have a good understanding of web development technologies such as HTML, CSS, JavaScript, React, MongoDB, Node.js, Express.js, Next.js, Cloudflare, Hono, Turborepo, Prisma, Firebase. Additionally, I'm proficient in backend technologies such as Java, Mysql, and SpringBoot. I also have skills in Python and problem-solving using Data structures and Algorithms.
                     </p>
                 </div>
             </div>

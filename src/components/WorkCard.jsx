@@ -8,15 +8,17 @@ import notes from '../assets/notes.png';
 import spotify from '../assets/spotify.png';
 import todos from '../assets/todos.png';
 import whatsapp from '../assets/whatsapp.png';
+import tlrs from '../assets/tlrs.png'
 import '../css/WorkCard.css';
 
 const WorkCard = () => {
   //all projects displayed
   const reversedData = [
+    
     {
         id : 7,
         img : todos,
-        title : "Todo-App",
+        title : "Todo App",
         desc : "Make a better plan for your day",
         link : "https://ngworks-todos.vercel.app/",
         git : "https://github.com/ngworks1909/todolist"
@@ -24,7 +26,7 @@ const WorkCard = () => {
     {
         id : 8,
         img : whatsapp,
-        title : "Whatsapp-Clone",
+        title : "Whatsapp Clone",
         desc : "WhatsApp, a messaging app, connects people worldwide through text. It ensures secure and private communication. Enjoy seamless communication with friends and family across the globe.",
         link : "https://ngworks-whatsapp.netlify.app",
         git : "https://github.com/ngworks1909/whatsapp-clone"
@@ -40,7 +42,7 @@ const WorkCard = () => {
     {
         id : 10,
         img : spotify,
-        title : "Spotify-Clone",
+        title : "Spotify Clone",
         desc : "Relax and enjoy the songs",
         link : "https://ngworks-spotify.vercel.app",
         git : "https://github.com/ngworks1909/spotify-clone"
@@ -53,6 +55,14 @@ const WorkCard = () => {
       link : "https://fundsroom.vercel.app",
       git : "https://github.com/ngworks1909/fundsroom"
   },
+  {
+    id : 12,
+    img : tlrs,
+    title : "TLRS",
+    desc : "TLRS allows users to easily track their tailoring orders.",
+    link : "https://tlrs.vercel.app/",
+    git : "https://github.com/ngworks1909/tlrs"
+  }
   ].reverse();
 
   return (
