@@ -9,7 +9,6 @@ import { TypeAnimation } from "react-type-animation";
 import img1 from '../assets/mypic.png';
 import img2 from '../assets/rotatingpic.png';
 import '../css/Main.css';
-import resumePDF from '../resume/Nithin Resume.pdf';
 
 export default function Main() {
   return (
@@ -23,10 +22,10 @@ export default function Main() {
                     <p data-aos="fade-up" className=" short-text">I'm an undergraduate student from Anurag University</p>
                     </div>
                     <div data-aos="fade-up" className="social-buttons">
-                        <Link to="https://firebasestorage.googleapis.com/v0/b/portfolio-32a9b.appspot.com/o/Nithin%20Resume.pdf?alt=media&token=32059dc4-f81a-4e44-87ca-e5d87f90fdcf" target="_blank" className="hire-me-button" >
+                        <Link to="https://firebasestorage.googleapis.com/v0/b/portfolio-32a9b.appspot.com/o/Nithin%20Resume.pdf?alt=media&token=9f4e580d-1c47-4f57-aaec-374fcfd341cd" target="_blank" className="hire-me-button" >
                              <span> View Resume</span>
                         </Link>
-                        <Link to={resumePDF} className="resume-button" download>
+                        <Link to={"https://firebasestorage.googleapis.com/v0/b/portfolio-32a9b.appspot.com/o/Nithin%20Resume.pdf?alt=media&token=9f4e580d-1c47-4f57-aaec-374fcfd341cd"} className="resume-button" download>
                             <div className="flex items-center gap-1">
                                 Resume <FiDownload />
                             </div>

@@ -28,7 +28,7 @@ const WorkCard = () => {
         img : whatsapp,
         title : "Whatsapp Clone",
         desc : "WhatsApp, a messaging app, connects people worldwide through text. It ensures secure and private communication. Enjoy seamless communication with friends and family across the globe.",
-        link : "https://ngworks-whatsapp.netlify.app",
+        link : "https://ngworks-whatsapp.vercel.app",
         git : "https://github.com/ngworks1909/whatsapp-clone"
     },
     {
